@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+
+    --br-main: 1rem;
+    --br-sec: 0.5rem;
+
+    /* Colors */
+    --bg-main: #F4F2EE;
+    --bg-sec: #fbfbfb;
+    --bc: #c9c9c9;
+    --bs: 0.05rem 0.05rem .3rem #000000a1;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #232629;
+}
+
+body {
+    background-color: var(--bg-main);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    height: 4rem;
+    
+    border-radius: var(--br-sec);
+    background-color: var(--bg-sec);
+    box-shadow: var(--bs);
+}
+
+nav a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav div#profile{
+    border-radius: 50%;
+    background-color: var(--bc);
+    width: 3.6rem;
+    height: 3.6rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#wrapper {
+    display: flex;
+}
+
+.content {
+    background-color: var(--bg-sec);
+    margin: 0.5rem;
+    border-radius: var(--br-main);
+    border: 0.1rem solid var(--bc);
+    padding: 1rem;
+
+}
+
+#panel {
+    width: 25%;
+    height: 20rem;
+}
+
+#main-content {
+    width: 75%;
+    height: 20rem;
+}

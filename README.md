@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://camasmedellin.com/wp-content/uploads/2023/09/Base-Camas-Medellin-colchones-camas-base-camas-.png" width="200" alt="BCM Logo"></a></p>
+<p align="center"><a href="https://camasmedellin.com" target="_blank"><img src="https://camasmedellin.com/wp-content/uploads/2023/09/Base-Camas-Medellin-colchones-camas-base-camas-.png" width="200" alt="BCM Logo"></a></p>
 
 
 ## BCM-Titapp
